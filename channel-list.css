@@ -42,6 +42,7 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+  margin-bottom: 10px;
 }
 
 .friend-status {
@@ -70,10 +71,40 @@
   color: #b5b5b5;
 }
 
-.treads{
-  color: #fff;
+.treads {
+  display: flex;
+  color: #b5b5b5;
 }
 
-.nomad-list{
+.treads-img {
+  margin-right: 11px;
+}
+
+.nomad-list {
+  display: flex;
   color: #fff;
+  justify-content: space-between;
+}
+
+.nomad-list > h1::after {
+  content: url(./assets/nomad-arrow.svg);
+  margin-left: 5px;
+}
+
+.channels {
+  display: flex;
+  color: #919191;
+  justify-content: space-between;
+}
+.count-channels {
+  padding-top: 21px;
+}
+
+.friends {
+  display: flex;
+  color: #919191;
+  justify-content: space-between;
+}
+.count-friends {
+  padding-top: 21px;
 }
